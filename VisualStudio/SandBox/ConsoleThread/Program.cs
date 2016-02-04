@@ -19,7 +19,6 @@ namespace ConsoleThread
         static void Main(string[] args)
         {
             Thread thexe = new Thread(new ThreadStart(ThreadExe));
-
             thexe.Start();
 
             while (true)
