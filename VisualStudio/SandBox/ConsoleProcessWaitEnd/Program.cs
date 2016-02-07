@@ -9,14 +9,19 @@ namespace ConsoleProcessWaitEnd
 {
     class Program
     {
-        private const int MAX_SECCONDS = 60 * 1000;
+        private const int MAX_SECCONDS = 10 * 1000;
 
         static void Main(string[] args)
         {
             ProcessStartInfo psiNotepad = new ProcessStartInfo();
             psiNotepad.FileName = @"notepad";
             Process psNotepad = System.Diagnostics.Process.Start(psiNotepad);
-            psNotepad.WaitForExit(MAX_SECCONDS);
+
+            if(!psNotepad.WaitForExit(MAX_SECCONDS))
+            {
+                psNotepad.Kill();
+            }
+            
         }
     }
 }
