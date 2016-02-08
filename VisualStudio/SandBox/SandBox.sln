@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleProcessWaitEnd", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "URLRequest", "URLRequest\URLRequest.csproj", "{CCE65923-215C-45DF-A0C1-F379D6BB44F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFMPEGMovieInfo", "FFMPEGMovieInfo\FFMPEGMovieInfo.csproj", "{21DC18C1-3FC6-400A-8C22-B4B8075A4A4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CCE65923-215C-45DF-A0C1-F379D6BB44F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE65923-215C-45DF-A0C1-F379D6BB44F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE65923-215C-45DF-A0C1-F379D6BB44F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21DC18C1-3FC6-400A-8C22-B4B8075A4A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21DC18C1-3FC6-400A-8C22-B4B8075A4A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21DC18C1-3FC6-400A-8C22-B4B8075A4A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21DC18C1-3FC6-400A-8C22-B4B8075A4A4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
